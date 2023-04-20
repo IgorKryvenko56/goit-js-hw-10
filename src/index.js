@@ -3,7 +3,7 @@
   import { Notify } from 'notiflix/build/notiflix-notify-aio';
   import { fetchCountries } from './fetchCountries';
   
-  Notiflix.Notify.init({
+  Notify.init({
     position: 'right-top',
     cssAnimationStyle: 'fade',
     fontSize: '20px',
